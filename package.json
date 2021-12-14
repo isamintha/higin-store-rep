@@ -1,0 +1,27 @@
+{
+  "name": "higin-store",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isamintha/higin-store-rep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isamintha/higin-store-rep/issues"
+  },
+  "homepage": "https://github.com/isamintha/higin-store-rep#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-plugin-react": "^7.27.1"
+  }
+}
